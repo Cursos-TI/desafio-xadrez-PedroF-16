@@ -3,7 +3,7 @@
 int main(){
 
     int T , R, B, C;
-    int movimentoC = 1;
+    int movimentoC = 1;//Flag para o movimento do cavalo
 
     //Move a Rainha 8 casas
     do{
@@ -25,9 +25,9 @@ int main(){
     {
         for (C = 0; C < 2; C++)
         {
-            printf("Baixo\n");
+            printf("Baixo\n");//Imprime cima duas vezes
         }
-        printf("Esquerda\n");
+        printf("Esquerda\n");//imprime cima uma vez
     }
     
     
