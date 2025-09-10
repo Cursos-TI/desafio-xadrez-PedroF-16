@@ -25,12 +25,12 @@ void moverrainha(int casasr){
 void movercavalo(int casasc){
     if (casasc > 0)
     {// verifica se o numero é maior que zero e maior que um para poder executar o movimento para baixo
-        for (casasc > 0; casasc > 1; casasc--)
+        for (casasc > 0; casasc > 1; casasc --)
         {
             printf("Baixo\n");
+            
         }
         printf("Esquerda\n");
-
     }
     //Faz a movimentação do cavalo
 }
